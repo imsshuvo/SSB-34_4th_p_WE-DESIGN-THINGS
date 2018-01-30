@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+padding-top: 30px;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #2d3950;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+	padding: 110px;
+	padding-left:5%;
+}
+.logo:hover{
+	cursor: pointer;
+}
+.logo img{}
+.head{
+	text-align: center;
+}
+.head h1{
+	font-size: 70px;
+	color: #fff;
+}
+.head p{
+	line-height: 25px;
+	text-align: center;
+    width: 50%;
+    color: #fff;
+    display: inline-block;
+    padding-top: 30px;
+}
+span{
+	color: #F26122;
+}
+.baton{
+	padding-top: 40px;
+	text-align: center;
+}
+.baton button{
+	background: #F26122;
+	padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.baton button:hover{
+	cursor: pointer;
+	background: #F22222;
+}
+p{
+
+	color: #fff;
+}
+.arrrow{
+	text-align: center;
+	padding: 40px;
+	padding-top: 70px;
+}
+.arrrow a{
+
+}
+.arrrow a i{
+	color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 18px 20px;
+}
+.arrrow a i:hover{
+	cursor: pointer;
+	color: #fff;
+	background:#F22222;
+}
+.works_section{
+}
+.work1{
+	padding-bottom: 100px;
+}
+.work1 h1{
+	padding-top: 110px;
+    text-align: center;
+    font-size: 35px;
+}
+.work1 p{
+	line-height: 25px;
+	font-size: 16px;
+	color: black;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.work2{
+	text-align: center;
+}
+.work2 img{
+	padding: 7px;
+}
+.work3{
+	text-align: center;
+}
+.work3 button{
+    padding: 0px 20px;
+    border: none;
+    background: #f26122;
+    border-radius: 5px;
+}
+.work3 button p{}
+.work3 button:hover{
+	cursor: pointer;
+	background: #f22222;
+
+}
+
+
+.our_team_section{
+	margin: 0 auto;
+	width: 100%;
+	width: 100%;
+	text-align: center;
+}
+.our_team_section h1{
+	padding: 30px;
+	font-size: 35px
+}
+.our_team_section p{
+	line-height: 25px;
+	font-size: 16px;
+	color: black;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+
+.profile_section{
+	padding: 130px;
+}
+
+.profile1{
+	width: 25%;
+    float: left;
+}
+.profile1 img{}
+.profile1 h2{
+	padding-top: 30px;
+	margin-right: 15%;
+	text-align:center;
+}
+.profile1 p{
+	line-height: 25px;
+    padding: 20px 25px;
+	text-align:center;
+	color:black;
+}
+
+
+.profile2{
+	width: 25%;
+    float: left;
+}
+.profile2 img{}
+.profile2 h2{
+	padding-top: 30px;
+	margin-right: 15%;
+	text-align:center;
+}
+.profile2 p{
+	line-height: 25px;
+    padding: 20px 25px;
+	text-align:center;
+	color:black;
+}
+
+
+.profile3{
+	width: 25%;
+    float: left;
+}
+.profile3 img{}
+.profile3 h2{
+	padding-top: 30px;
+	margin-right: 15%;
+	text-align:center;
+}
+.profile3 p{
+	line-height: 25px;
+    padding: 20px 25px;
+	text-align:center;
+	color:black;
+}
+
+
+.profile4{
+	width: 25%;
+    float: left;
+}
+.profile4 img{}
+.profile4 h2{
+	padding-top: 30px;
+	margin-right: 15%;
+	text-align:center;
+}
+.profile4 p{
+	line-height: 25px;
+    padding: 20px 25px;
+	text-align:center;
+	color:black;
+}
+.profile1 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+.profile1 img:hover{
+	filter: none;
+	cursor: pointer;
+	border-bottom: 3px solid #F7600E;
+	transition: 0.5px;
+	-webkit-transform:0.5px;
+	transform: scale(1.1,1.1);
+	-o-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+	-webkit-transform:scale(1.1,1.1);	
+}
+.profile2 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+.profile2 img:hover{
+	filter: none;
+	cursor: pointer;
+	border-bottom: 3px solid #F7600E;
+	transition: 0.5px;
+	-webkit-transform:0.5px;
+	transform: scale(1.1,1.1);
+	-o-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+	-webkit-transform:scale(1.1,1.1);	
+}
+.profile3 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+.profile3 img:hover{
+	filter: none;
+	cursor: pointer;
+	border-bottom: 3px solid #F7600E;
+	transition: 0.5px;
+	-webkit-transform:0.5px;
+	transform: scale(1.1,1.1);
+	-o-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+	-webkit-transform:scale(1.1,1.1);	
+}
+.profile4 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+.profile4 img:hover{
+	filter: none;
+	cursor: pointer;
+	border-bottom: 3px solid #F7600E;
+	transition: 0.5px;
+	-webkit-transform:0.5px;
+	transform: scale(1.1,1.1);
+	-o-transform:scale(1.1,1.1);
+	-moz-transform:scale(1.1,1.1);
+	-webkit-transform:scale(1.1,1.1);	
+}
+.contact_section{	
+    background: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+}
+.contact h2{
+	text-align: center;
+	font-size: 35px;
+	padding-bottom:15px;
+	color: #fff;	
+}
+.contact p{
+	line-height: 25px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding-left: 31%;
+    padding-right: 31%;
+    padding-bottom: 30px;
+}
+.from{}
+.from form{
+	text-align: center;
+}
+.from form input{	
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.rr{
+	margin-left:0px;
+}	
+.rrr{
+	margin-left:15px
+}	
+.message{
+	text-align: center;
+}
+.message textarea{
+	padding-right: 470px;
+    margin-top: 10px;
+    border: 2px solid #9a9a9a;
+    border-radius: 5px;
+}
+.buttom{
+	text-align: center;
+    padding: 15px;
+    padding-right: 500px;
+    padding-bottom: 80px;
+}
+.buttom button{	
+    background: #F26121;
+    border: none;
+    border-radius: 8px;
+}
+.buttom button p{	
+    padding: 5px 40px;
+}
+.buttom button:hover{
+	cursor: pointer;
+	background: #f22222;
+
+}
+footer{
+	background: #3B434C;
+	padding: 10px;
+}
+.footer{
+	/*text-align: center;*/
+}
+.left{
+	font-size: 15px;
+	float: left;
+	color: #fff;
+}
+.right{
+	font-size: 15px;
+	float: right;
+	color: #fff;
+}
+
+
